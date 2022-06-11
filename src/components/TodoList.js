@@ -10,7 +10,7 @@ function TodoList() {
     } //bu if yapısı boşluk vs add yapmaması içindi.
     const newTodos = [todo, ...todos];
     setTodos(newTodos);
-    console.log(todo, ...todos);
+    // console.log(todo, ...todos);
   };
   return (
     <div>
