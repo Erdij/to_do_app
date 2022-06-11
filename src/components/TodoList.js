@@ -19,7 +19,7 @@ function TodoList() {
       if (todo.id === id) {
         todo.isComplete = !todo.isComplete;
       }
-      return todo;
+      return todo; // if in içi "boşa eşit değilse yani todo (!== "" ) " şeklinde de olabilir.
     });
     setTodos(updatedTodos);
   };
